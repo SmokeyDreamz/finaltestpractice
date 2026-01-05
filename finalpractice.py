@@ -13,6 +13,6 @@ class ThemeParkPass:
         else:
             self.rides_used.append(ride_name)
             return True
-    can_ride("Scary_Coaster")
+    can_ride("Scary_Coaster", "Bartholemew")
         
 guest = ThemeParkPass("Bartholemew", "Premium", [1], 5, "Not Valid")
