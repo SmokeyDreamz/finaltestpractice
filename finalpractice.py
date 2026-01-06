@@ -28,7 +28,7 @@ guest2 = ThemeParkPass("Max", "Premium", [], 1, True)
 guest3 = ThemeParkPass("Bart", "Premium", [], 9, True)
 guest4 = ThemeParkPass("Mart", "Basic", [], 4, False)
 guest5 = ThemeParkPass("Justin", "Basic", [], 0, True)
-guest6 = ThemeParkPass("Max", "Premium", [], 3, False)
+guest6 = ThemeParkPass("Max", "Premium", [], 3, True)
 guest7 = ThemeParkPass("Bart", "Premium", [], 4, True)
 guest8 = ThemeParkPass("Mart", "Basic", [], 6, True)
 
