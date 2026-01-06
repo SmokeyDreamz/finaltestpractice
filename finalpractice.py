@@ -1,3 +1,4 @@
+print("laksdfhgb")
 class ThemeParkPass:
     def __init__(self, guest_name, pass_type, rides_used, ride_limit, is_valid):
         self.guest_name = guest_name
@@ -15,7 +16,7 @@ class ThemeParkPass:
 
 
 guest = ThemeParkPass("Bartholemew", "Premium", [], 5, True)
-
+print("laksdfhgb")
 
 print(guest.can_ride("Scary_Coaster"))
 print(guest.rides_used)
