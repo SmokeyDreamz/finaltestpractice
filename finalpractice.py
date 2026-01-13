@@ -7,7 +7,7 @@ class ThemeParkPass:
         self.is_valid = is_valid
 
     def can_ride(self, ride_name):
-        if not self.is_valid or len(self.rides_used) > self.ride_limit:
+        if not self.is_valid or len(self.rides_used) >= self.ride_limit:
             return False
         else:
             self.rides_used.append(ride_name)
@@ -23,7 +23,7 @@ def count_premium_passes(passes):
 
 
 
-guest1 = ThemeParkPass("Justin", "Basic", ["Baby Coaster, Tall Coaster, Small Loop Coaster"], 1, True)
+guest1 = ThemeParkPass("Justin", "Basic", ["Baby Coaster", "Tall Coaster", "Small Loop Coaster"], 3, True)
 guest2 = ThemeParkPass("Max", "Premium", [], 1, True)
 guest3 = ThemeParkPass("Bart", "Premium", [], 9, True)
 guest4 = ThemeParkPass("Mart", "Basic", [], 4, False)
